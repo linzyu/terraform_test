@@ -1,4 +1,4 @@
-
+#ec2
 resource "aws_instance" "exemple" {
   ami           = var.AMIS[var.AWS_REGION]
   instance_type = var.TYPE_MEM[var.INSTANCE_TYPE]
